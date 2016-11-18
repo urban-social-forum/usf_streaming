@@ -7,39 +7,112 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="shortcut icon" href="../favicon.ico"> 
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
 
-		 <link rel="stylesheet" href="css/style3.css" type="text/css" media="screen"/>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script type="text/javascript" src="sliding.form.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 		<!--[if lte IE 8]>
 			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
 		<![endif]-->
     </head>
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
         #title{
             background-color: yellow;
             width: 100%;
             height:100px;
-            margin-top: -20px;
             text-align: center;
-            padding: 10px 10px 10px 10px;
         }
-        h1{
+        #back > a{
+            width: 100px;
+            height: 100px;
+            left: 0px;
+            position: absolute;
+            background: blue;
+            text-decoration: none;
+            padding: 10px;
+        }
+         #back > a:hover{
+            width: 100px;
+            height: 100px;
+            left: 0px;
+            position: absolute;
+            background: white;
+        }
+
+
+        #subject{
             color:black;
             font-size:36px;
             text-shadow:1px 1px 1px #fff;
             text-align: center;
+            position: relative;
+            top:20px;
+        }
+        .maincontent{
+            width: 100%;
+            padding: 20px;
+            top:50px;
+        }
+        .col-md-4{
+            border: 1px solid rgba(242,242,242,.5);
+            border-radius: 10px;
+            width: 31.5%;
+            height: 500px;
+            padding: 10px;
+            margin: 10px;
+        }
+        h2{
+            color:white;
+            font-size:2em;
+            text-shadow:.5px .5px .5px #fff;
+            text-align: center;
             top: 50%;
         }
+        p{
+            color:white;
+            font-size:1.3em;
+            text-align: center;
+            top: 50%;
+        }
+
     </style>
-<div id="title">
-    <h1> Live Streaming Urban Social Forum </h1>
-</div>
+
     <body>
-        <SECTION> 
+
+        <div id="title">
+            <div id="back">
+                <a href="http://urbansocialforum.or.id/" target="_blank"><span>USF </br> </span> <span>official website </span> </a>
+            </div>
+            <div id="subject">
+                <h1> Live Streaming Urban Social Forum </h1>
+            </div>  
+        </div>
+
+        <div class="maincontent" class="container">
+            <div class="video" class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                    <h2>Panel Name</h2>
+                    <p>Speaker </br> Timestamp </p>
+                </div>
+                 <div class="col-md-4 col-sm-6 col-xs-12">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                    <h2>Panel Name</h2>
+                    <p>Speaker </br> Timestamp </p>
+                </div>
+                 <div class="col-md-4 col-sm-6 col-xs-12">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                    <h2>Panel Name</h2>
+                    <p>Speaker </br> Timestamp </p>
+                </div>
+            </div>
+        </div>
+       <!-- <Section> 
             <div id="video1">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -53,6 +126,6 @@
             <div id="video1">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
             </div>
-        </SECTION>
+        </SECTION> -->
 	</body>
 </html>
