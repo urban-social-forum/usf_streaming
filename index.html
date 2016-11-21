@@ -1,166 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-		<meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>[USF]setreaming</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <link rel="shortcut icon" href="../favicon.ico"> 
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-
-        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-
-		<!--[if lte IE 8]>
-			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
-		<![endif]-->
+        <title>USF Streaming</title>
+        <link rel="stylesheet"  href="css/bootstrap.min.css">
+        <link rel="stylesheet"  href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
     </head>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            overflow-x: hidden;
-            max-width: 100%;
-            font-family: 'Oxygen', sans-serif;
-        }
-      
-        #header-nav{
-            background-color: yellow;
-            border-radius: 0;
-            border: 0;
-        }    
-      .navbar-header > a{
-            width: 100px;
-            height: 100px;
-            left: 10px;
-            position: absolute;
-            z-index: 10;
-        }
-         .navbar-header > a:hover{
-            width: 100px;
-            height: 100px;
-            left: 10px;
-            position: absolute;
-            border: 1.5px solid black;
-            z-index: 10;
-        }
-         #logo_img{
-            background: url('../img/logo_usf.png') no-repeat;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            z-index: 10;
-        }
-        .navbar-brand{
-            margin-left: 50px;
-        }
-        .navbar-brand h1{
-            font-family: 'Oxygen', sans-serif;
-            font-size: 3.0em;
-            font-weight: bold;
-            text-shadow:1px 1px 1px #222;
-            margin-top:0;
-            margin-bottom: 0;
-            line-height: .75;
-        }
-        .navbar-brand a:hover, .navbar-brand a:focus{
-            text-decoration: none;
-        }
-        .navbar-brand p {
-            color: #000;
-            font-size: .6;
-            margin-top: 10px;
-            font-family: 'Oxygen', sans-serif;
-        }
-        .navbar-brand p span {
-            vertical-align: middle;
-        }
-        #subject{
-            color:black;
-            font-size:36px;
-            text-shadow:1px 1px 1px #fff;
-            text-align: left;
-            margin-left: 50px;
-            position: relative;
-            top:20px;
-            left: 100px;
-        }
-        .row{
-            margin: 50px auto 25px auto;
-
-        }
-        .row > div{
-            border: 1px solid rgba(242,242,242,.2);
-            border-radius: 10px;
-            height: 500px;
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-        h2{
-            color:white;
-            font-size:2em;
-            text-shadow:.5px .5px .5px #fff;
-            text-align: center;
-            top: 50%;
-            font-family: 'Oxygen', sans-serif;
-        }
-        p{
-            color:white;
-            font-size:1.3em;
-            text-align: center;
-            top: 50%;
-        }
-
-    </style>
-
+<style>
+</style>
     <body>
         <header>
             <nav id="header-nav" class="navbar navbar-default">
                 <div class="container">
                     <div class="navbar-header">
                         <a href="http://urbansocialforum.or.id/" target="_blank" class="pull-left visible-md visible-lg">
-                            <div id="logo_img" alt="Logo image"></div>
-                        </a> 
-                    </div>
+                            <div id="logo-img" alt="Logo image"> </div>
                     <div class="navbar-brand">
-                        <a href="index.html"> 
-                            <h1>Live Streaming</h1>
-                        </a>
+                        <a href="index.html"><h1>Live Streaming</h1> </a>
                         <p>
-                            <span>December 3rd, 2016. Semarang, Indonesia</span>
+                            <span>December 3<sup>rd</sup> 2016. Semarang, Indonesia </span>
                         </p>
-                    </div> 
-                </div>         
-            </nav>      
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                           
+                    </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">            
+                        <li>
+                            <a href="#opening">Opening
+                                <span class="hidden-xs"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#morning">10:45
+                                <span class="hidden-xs"></span>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="#noon">13:15
+                                <span class="hidden-xs"></span>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="#afternoon">14:45
+                                <span class="hidden-xs"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#closing">Closing
+                                <span class="hidden-xs"></span>
+                            </a>
+                        </li> 
+                    </ul> 
+                    </div>
+ 
+                </div>
+            </nav>
         </header>
 
-        <div class="maincontent" class="container-fluid">
-            <div id="video" class="row">
-                <div class="col-md-4">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
-                    <h2>Panel Name</h2>
-                    <p>Speaker </br> Timestamp </p>
+        <div id="main-content" class="container">
+            <section id="opening">
+                <h2>Opening (9:20)</h2>
+                <div id="main-video">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                    <p>Panel name </br> Speaker</p>
                 </div>
-                 <div class="col-md-4">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
-                    <h2>Panel Name</h2>
-                    <p>Speaker </br> Timestamp </p>
+            </section> 
+            <section id="morning">
+                <h2>Panel 1  (10:45)</h2>
+                <div id="home-tiles" class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                </div> 
+            </section>
+            <section id="noon">
+                <h2>Panel 2  (13:15)</h2>
+                <div id="home-tiles" class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                </div> 
+            </section>
+            <section id="afternoon">
+                <h2>Panel 3 (14:45)</h2>
+                <div id="home-tiles" class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                        <p>Panel name </br> Speaker</p>
+                    </div>
+                </div> 
+            </section>
+            <section id="closing">
+                <h2>Closing (16:45)</h2>
+                <div id="main-video">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
+                    <p>Panel name </br> Speaker</p>
                 </div>
-                 <div class="col-md-4">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
-                    <h2>Panel Name</h2>
-                    <p>Speaker </br> Timestamp </p>
-                </div>
-              
+            </section> 
+            <div id="botones" class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="#header-nav">Go top</a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="http://urbansocialforum.or.id/" target="_blank">USF website</a>
+                    </div>
+                </div> 
             </div>
         </div>
-       
-	</body>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
 
-<!--browser-sync start --server --directory --files "**/*"-->

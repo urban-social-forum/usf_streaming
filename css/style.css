@@ -1,0 +1,211 @@
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{
+    background:url('../img/logo_usf.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0px;
+}
+#logo-img:hover{
+    border: 1px solid gray;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration:none;
+}
+
+.navbar-brand p{
+    color: white;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand p span{
+    vertical-align: middle;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align:center;
+    font-size: 1.1em;
+}
+#nav-list a:hover {
+    color: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+
+.container #main-video{
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: middle;
+}
+.container h2{
+    font-size: 2em;
+    text-align: middle;
+    position: relative;
+
+}
+.container #main-video p{
+    font-size: 1.4em;
+    left: 30px;
+}
+
+#opening {
+    background-color:black;
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+#morning {
+    background-color:black;
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    margin-top:30px;
+}
+#noon {
+    background-color:black;
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    margin-top:30px;
+}
+#afternoon {
+    background-color:black;
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    margin-top:30px;
+ }
+ #closing {
+    background-color:black;
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+#botones{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 5px; 
+}
+
+#botones a {
+    padding: 10px;
+    margin-left:40%; 
+    font-size: 1.3em;
+    border-radius: 7px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+#botones a:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+/*large devices*/
+@media (min-width: 1200px){
+
+}
+/*medium devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .navbar-brand h1{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0px;
+        line-height: .75;
+    }
+    .navbar-brand p{
+        color: white;
+        font-size: .9em;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 20px;
+        margin-bottom: 0;
+        line-height: .75;
+    }
+
+}
+/*small devices*/
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-brand{
+        height: 100px;
+    }
+    .navbar-brand h1{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0px;
+        line-height: .75;
+    }
+    .navbar-brand p{
+        color: white;
+        font-size: .9em;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 20px;
+        margin-bottom: 0;
+        line-height: .75;
+         }
+}
+/*extra small devices*/
+@media (max-width: 767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 7vw;
+    }
+    .navbar-brand p{
+        font-size: .8em;
+        margin-top: 12px;
+    }
+    #collapsable-nav a{
+        font-size: .9em;
+        font-weight: bold;
+    }
+}
