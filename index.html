@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <title>[USF]setreaming</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="shortcut icon" href="../favicon.ico"> 
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -20,6 +20,9 @@
             margin: 0;
             padding: 0;
             background-color: black;
+            overflow-x: hidden;
+            max-width: 100%;
+
         }
         #title{
             background-color: yellow;
@@ -43,29 +46,29 @@
             position: absolute;
             background: white;
         }
-
-
         #subject{
             color:black;
             font-size:36px;
             text-shadow:1px 1px 1px #fff;
-            text-align: center;
+            text-align: left;
+            margin-left: 50px;
             position: relative;
             top:20px;
+            left: 100px;
         }
         .maincontent{
             width: 100%;
-            padding: 20px;
-            top:50px;
+            margin: 50px auto auto 120px;
+
         }
-        .col-md-4{
+        .col-md-3{
             border: 1px solid rgba(242,242,242,.5);
             border-radius: 10px;
-            width: 31.5%;
             height: 500px;
-            padding: 10px;
-            margin: 10px;
+            padding: 20px;
+            margin: 20px;
         }
+
         h2{
             color:white;
             font-size:2em;
@@ -86,26 +89,26 @@
 
         <div id="title">
             <div id="back">
-                <a href="http://urbansocialforum.or.id/" target="_blank"><span>USF </br> </span> <span>official website </span> </a>
+                <a href="http://urbansocialforum.or.id/" target="_blank"><span>USF </br> </span> <span>official website </span> </a> 
             </div>
             <div id="subject">
                 <h1> Live Streaming Urban Social Forum </h1>
-            </div>  
+            </div>      
         </div>
 
         <div class="maincontent" class="container">
             <div class="video" class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-3 col-sm-6 col-xs-1">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
                     <h2>Panel Name</h2>
                     <p>Speaker </br> Timestamp </p>
                 </div>
-                 <div class="col-md-4 col-sm-6 col-xs-12">
+                 <div class="col-md-3 col-sm-6 col-xs-1">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
                     <h2>Panel Name</h2>
                     <p>Speaker </br> Timestamp </p>
                 </div>
-                 <div class="col-md-4 col-sm-6 col-xs-12">
+                 <div class="col-md-3 col-sm-6 col-xs-1">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/fpIza4mGHRI" frameborder="0" allowfullscreen></iframe>
                     <h2>Panel Name</h2>
                     <p>Speaker </br> Timestamp </p>
