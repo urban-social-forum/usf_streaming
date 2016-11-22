@@ -2,12 +2,14 @@
 body {
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
+    /*background-color: #61122f;*/
+    background: url('../img/usf_back2.png') no-repeat;
+    
     font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav {
-    background-color: #f6b319;
+    background-color: #f4ea3b;
     border-radius: 0;
     border: 0;
 }
@@ -17,9 +19,11 @@ body {
     width: 100px;
     height: 100px;
     margin: 10px 15px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 #logo-img:hover{
-    border: 1px solid gray;
+    border: 2px solid gray;
 }
 .navbar-brand{
     padding-top: 25px;
@@ -56,12 +60,12 @@ body {
 }
 
 #nav-list a {
-    color: #951C49;
+    color: black;
     text-align:center;
     font-size: 1.1em;
 }
 #nav-list a:hover {
-    color: #E7E7E7;
+    text-shadow: 0px 0px 1px  black;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
     border: 1px solid #61122f;
@@ -77,53 +81,39 @@ body {
     border-radius: 10px;
     text-align: middle;
 }
-.container h2{
-    font-size: 2em;
+.container .panel-video h2{
+    font-size: 2.2em;
     text-align: middle;
     position: relative;
-
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 1px 0px black;
 }
-.container #main-video p{
-    font-size: 1.4em;
+.container .panel-video p{
+    font-size: 1.2em;
     left: 30px;
+    color: black;
+    font-weight: bold;
+    line-height: .95;
+    text-transform: uppercase;
 }
 
-#opening {
-    background-color:black;
+.panel-video {
+    background-color:rgba(255,255,255,.9);
     padding: 5px 10px 10px 10px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 30px;
 }
 
-#morning {
-    background-color:black;
-    padding: 5px 10px 10px 10px;
-    border-radius: 20px;
-    margin-top:30px;
-}
-#noon {
-    background-color:black;
-    padding: 5px 10px 10px 10px;
-    border-radius: 20px;
-    margin-top:30px;
-}
-#afternoon {
-    background-color:black;
-    padding: 5px 10px 10px 10px;
-    border-radius: 20px;
-    margin-top:30px;
- }
- #closing {
-    background-color:black;
-    padding: 5px 10px 10px 10px;
-    border-radius: 20px;
-    margin-top:30px;
-    margin-bottom: 30px;
+.panel-video:hover {
+      background-color: rgba(244, 234, 59, .9);
 }
 
 #botones{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 30px;
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 #botones a {
@@ -133,7 +123,8 @@ body {
     border-radius: 7px;
     border: 1px solid white;
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: rgba(244, 234, 59, .9); 
 }
 
 #botones a:hover {
@@ -207,5 +198,8 @@ body {
     #collapsable-nav a{
         font-size: .9em;
         font-weight: bold;
+    }
+    #botones a { 
+    font-size: .8em;
     }
 }
