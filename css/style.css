@@ -77,18 +77,21 @@ body {
 #nav-list li:last-child a {
     background-color: #16b5f4;
     color: white;
+    border: 1px solid rgba(255,255,255,.8);
     text-align:center;
     border-radius: 10px;
-    font-size: 1.1em;
-    padding: 10px;
-    margin: 0px 0px 0px 0px;
+    font-size: 1.0em;
+    padding: 7px;
+    margin: 0px 30px 15px 0px;
 }
-#nav-list a:hover {
-    color: white;
-    text-shadow: 0px .5px .5px  rgba(1,1,1,.7);
+#nav-list li:last-child a:hover {
+    color: black;
+    border: 1px solid #16b5f4;
+    background-color: white;
+    text-shadow: 0px 0px 0px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-    border: 1px solid #61122f;
+    border: 1px solid black;
 }
 .navbar-header button.navbar-toggle{
     clear: both;
@@ -116,16 +119,16 @@ body {
 }
 
 .container .panel-video a{
-    border: 1px solid black;
+    border: 1px solid #16b5f4;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
-    color: black;
+    color: white;
     width: 80px;
     font-size: .8em;
     line-height: .9;
     font-weight: bold;
-    background-color: #f4ea3b;
+    background-color: #12a5f4;
     margin: 5px 20px 10px auto;
     float: right;
 }
@@ -134,6 +137,7 @@ body {
     text-decoration:none;
     background-color: white;
     box-shadow: 0px 0px 1px black;
+    color: black;
 
 }
 
@@ -154,9 +158,9 @@ body {
 
 .container .panel-video #home-tiles a:hover, .container .panel-video #home-tiles a:focus{
     text-decoration:none;
-    color: black;
     background-color: white;
     box-shadow: 0px 0px 1px black;
+    color: black;
 
 }
 
@@ -323,4 +327,7 @@ body {
     margin: auto auto 5px 20px;
     float: left;
     }
+    #nav-list li:last-child a {
+    margin: 0px 0px 0px 0px;
+}
 }
