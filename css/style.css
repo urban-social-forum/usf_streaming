@@ -101,6 +101,51 @@ body {
     text-shadow: 0px 0px 3px rgba(1,1,1,.1);
     margin: 5px 0px 10px 15px;
 }
+
+.container .panel-video a{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    width: 80px;
+    font-size: .8em;
+    line-height: .9;
+    font-weight: bold;
+    background-color: #f4ea3b;
+    margin: 5px 20px 10px auto;
+    float: right;
+}
+
+.container .panel-video a:hover, .container .panel-video a:focus{
+    text-decoration:none;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+
+}
+
+.container .panel-video #home-tiles a{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    width: 80px;
+    font-size: .8em;
+    line-height: .9;
+    font-weight: bold;
+    background-color: #f4ea3b;
+    margin: 7px auto 7px 5px;
+    float: left;
+}
+
+.container .panel-video #home-tiles a:hover, .container .panel-video #home-tiles a:focus{
+    text-decoration:none;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+
+}
+
 .container .panel-video p{
     font-size: .9em;
     max-width: 95%;
@@ -108,6 +153,15 @@ body {
     text-align: left;
     color: black;
     line-height: 1.4;
+}
+.container .panel-video span{
+    font-size: .8em;
+    max-width: 95%;
+    margin: 0px 0px 0px 6px;
+    text-align: left;
+    color: black;
+    line-height: 1.4;
+    font-style: italic;
 }
 
 .panel-video {
@@ -135,14 +189,12 @@ body {
 }
 
 #botones{
-    margin-top: 40px;
-    margin-bottom: 30px;
-    margin-left: 5px;
+    margin: 40px auto 40px 25%;
 }
 
 #botones a {
     padding: 10px;
-    margin-left:40%; 
+    float: left;
     font-size: 1.3em;
     border-radius: 7px;
     border: 1px solid white;
@@ -234,7 +286,7 @@ body {
         font-weight: bold;
     }
     #botones a { 
-    font-size: .8em;
+    font-size: .7em;
     }
     .row div {
     margin-bottom: 15px;
@@ -242,5 +294,19 @@ body {
     .container .vp{
     padding: 0px;
     margin: 0px 0px 0px 0px;
+    }
+    .container .panel-video a{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    width: 70px;
+    font-size: .7em;
+    line-height: .9;
+    font-weight: bold;
+    background-color: #f4ea3b;
+    margin: auto auto 5px 20px;
+    float: left;
     }
 }
