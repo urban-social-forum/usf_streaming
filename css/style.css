@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     color: #fff;
     /*background-color: #61122f;*/
-    background: url('../img/usf_art_3.png') no-repeat;
+    /*background: url('../img/usf_art_3.png') no-repeat;*/
     font-family: 'Lato', sans-serif;
     background-size: cover;
 
@@ -13,6 +13,15 @@ body {
     background-size: contain;
 
 }*/
+
+#temp-content {
+    background-color: #f4ea3b;
+    background: url('../img/temp-landing.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 #header-nav {
     background-color: #f4ea3b;
