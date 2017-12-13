@@ -31,12 +31,13 @@ body {
 }
 
 #logo-img{
-    background:url('../img/logo_usf.png') repeat;
+    background:url('../img/logo_usf_black.png') no-repeat center center;
+    background-size: 100px;
     width: 100px;
     height: 100px;
     margin: 10px 15px 10px 0px;
-    border-radius: 10px;
-    border: 1px solid gray;
+    /*border-radius: 10px;
+    border: 1px solid gray;*/
 }
 #logo-img:hover{
     border: 2px solid gray;
@@ -48,7 +49,7 @@ body {
     color: white;
     font-size: 3em;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
+    /*text-shadow: 1px 1px 1px #222;*/
     margin-top: 0;
     margin-bottom: 0px;
     line-height: .75;
@@ -59,7 +60,7 @@ body {
 .navbar-brand p{
     color: white;
     font-size: 1.1em;
-    text-shadow: 1px 1px 1px rgba(1,1,1,.7);
+    /*text-shadow: 1px 1px 1px rgba(1,1,1,.7);*/
     margin-top: 20px;
     margin-bottom: 0;
     line-height: .50;
@@ -84,7 +85,7 @@ body {
     text-shadow: 0px .5px .5px  rgba(1,1,1,.7);
 }
 #nav-list li:last-child a {
-    background-color: #16b5f4;
+    background-color: #CF6E41;
     color: white;
     border: 1px solid black;
     text-align:center;
@@ -119,7 +120,7 @@ body {
     margin: 0px 0px 0px 0px;
 }
 .container .panel-video h2{
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: middle;
     position: relative;
     font-weight: bold;
@@ -129,7 +130,7 @@ body {
 }
 
 .container .panel-video a{
-    border: 1px solid #16b5f4;
+    border: 1px solid #CF6E41;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
@@ -138,7 +139,7 @@ body {
     font-size: .8em;
     line-height: .9;
     font-weight: bold;
-    background-color: #12a5f4;
+    background-color: #CF6E41;
     margin: 5px 20px 10px auto;
     float: right;
 }
@@ -152,7 +153,7 @@ body {
 }
 
 .container .panel-video #home-tiles a{
-    border: 1px solid #16b5f4;
+    border: 1px solid #CF6E41;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
@@ -161,7 +162,7 @@ body {
     font-size: .8em;
     line-height: .9;
     font-weight: bold;
-    background-color: #12a5f4;
+    background-color: #CF6E41;
     margin: 7px auto 7px 0px;
     float: left;
 }
@@ -233,13 +234,13 @@ body {
     border-radius: 7px;
     border: 1px solid white;
     text-decoration: none;
-    color: black;
-    background-color: rgba(244, 234, 59, .9); 
+    color: white;
+    background-color: #CF6E41; 
 }
 
 #botones a:hover {
     border: 1px solid white;
-    background-color: black;
+    background-color: #CF6E41;
     color: white;
 }
 
