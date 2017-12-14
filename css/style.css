@@ -2,7 +2,7 @@
 body {
     font-size: 16px;
     color: #fff;
-    /*background-color: #61122f;*/
+    background-color: #ebecee;
     /*background: url('../img/usf_art_3.png') no-repeat;*/
     font-family: 'Lato', sans-serif;
     background-size: cover;
@@ -15,7 +15,7 @@ body {
 }*/
 
 #temp-content {
-    background-color: #f4ea3b;
+    background-color: #f3e40d;
     background: url('../img/temp-landing.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 #header-nav {
-    background-color: #f4ea3b;
+    background-color: #f3e40d;
     border-radius: 0;
     border: 0;
     padding: 10px;
@@ -72,22 +72,35 @@ body {
 }
 
 #nav-list{
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 #nav-list a {
-    color: black;
+    /*color: black;
     text-align:center;
-    font-size: 1.1em;
+    font-size: 1.1em;*/
+    background-color: #CF6E41;
+    color: white;
+    border: 1px solid #CF6E41;
+    text-align:center;
+    border-radius: 5px;
+    font-size: 1.0em;
+    padding: 7px;
+    margin: 0px 30px 15px 0px;
 }
 #nav-list a:hover {
-    color: white;
-    text-shadow: 0px .5px .5px  rgba(1,1,1,.7);
+    /*color: white;
+    text-shadow: 0px .5px .5px  rgba(1,1,1,.7);*/
+    color: black;
+    border: 1px solid #CF6E41;
+    background-color: white;
+    text-shadow: 0px 0px 0px;
+    box-shadow: 0px 1px 0px black;
 }
 #nav-list li:last-child a {
     background-color: #CF6E41;
     color: white;
-    border: 1px solid black;
+    border: 1px solid #CF6E41;
     text-align:center;
     border-radius: 5px;
     font-size: 1.0em;
@@ -96,7 +109,7 @@ body {
 }
 #nav-list li:last-child a:hover {
     color: black;
-    border: 1px solid black;
+    border: 1px solid #CF6E41;
     background-color: white;
     text-shadow: 0px 0px 0px;
     box-shadow: 0px 1px 0px black;
@@ -116,26 +129,26 @@ body {
     text-align: middle;
 }
 .container .vp{
-    padding: 70px 0px 100px 0px;
+    padding: 70px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
 }
-.container .panel-video h2{
+.container .panel-video h2 {
     font-size: 1.2em;
     text-align: middle;
     position: relative;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
-    text-shadow: 0px 0px 3px rgba(1,1,1,.1);
-    margin: 5px 0px 10px 15px;
+    /*text-shadow: 0px 0px 3px rgba(1,1,1,.1);*/
+    margin: 10px;
 }
 
 .container .panel-video a{
     border: 1px solid #CF6E41;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     text-align: center;
     color: white;
-    width: 80px;
+    width: 100px;
     font-size: .8em;
     line-height: .9;
     font-weight: bold;
@@ -154,13 +167,13 @@ body {
 
 .container .panel-video #home-tiles a{
     border: 1px solid #CF6E41;
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
     text-align: center;
     color: white;
     width: 100%;
     font-size: .8em;
-    line-height: .9;
+    line-height: 1;
     font-weight: bold;
     background-color: #CF6E41;
     margin: 7px auto 7px 0px;
@@ -182,9 +195,9 @@ body {
     border-radius: 10px;
 }
 .container .panel-video p{
-    font-size: .9em;
+    font-size: .8em;
     max-width: 95%;
-    margin: 0px 0px 0px 6px;
+    margin: 10px;
     text-align: left;
     color: black;
     line-height: 1.4;
@@ -201,14 +214,19 @@ body {
 
 .panel-video {
     background-color:rgba(255,255,255,.7);
-    padding: 5px 10px 10px 10px;
+    padding: 20px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(1,1,1,.5);
+    /*box-shadow: 0px 0px 10px 0px rgba(1,1,1,.5);*/
     margin-top: 30px;
 }
 
 .panel-video:hover {
       background-color: rgba(244, 234, 59, .9);
+}
+
+h2.panel-head {
+    text-align: center;
+    margin-bottom: 20px !important;
 }
 
 #opening{
@@ -239,9 +257,11 @@ body {
 }
 
 #botones a:hover {
-    border: 1px solid white;
-    background-color: #CF6E41;
-    color: white;
+    color: black;
+    border: 1px solid #CF6E41;
+    background-color: white;
+    text-shadow: 0px 0px 0px;
+    box-shadow: 0px 1px 0px black;
 }
 
 /*large devices*/
@@ -340,7 +360,7 @@ body {
     font-size: .7em;
     line-height: .9;
     font-weight: bold;
-    background-color: #f4ea3b;
+    background-color: #f3e40d;
     margin: auto auto 5px 20px;
     float: left;
     }
