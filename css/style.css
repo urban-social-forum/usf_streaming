@@ -264,6 +264,11 @@ h2.panel-head {
     box-shadow: 0px 1px 0px black;
 }
 
+.footer-panel {
+    width: 400px;
+    margin: -10px auto;
+}
+
 /*large devices*/
 @media (min-width: 1200px){
 
